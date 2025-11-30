@@ -8,6 +8,7 @@ A CLI tool to sync Cursor settings (extensions, themes, keymaps) across computer
 - Track installed extensions (note: extensions need to be installed manually after sync)
 - Uses secret GitHub Gists for secure storage
 - Simple push/pull commands for manual synchronization
+- Comprehensive unit tests to ensure reliability
 
 ## Installation
 
@@ -64,6 +65,20 @@ python main.py pull
 
 This will download the settings from your GitHub Gist and apply them to your local Cursor installation.
 
+## Testing
+
+The project includes comprehensive unit tests using pytest. To run the tests:
+
+```bash
+uv run pytest
+```
+
+Or to run tests with verbose output:
+
+```bash
+uv run pytest -v
+```
+
 ## What Gets Synced
 
 - **Settings**: All settings from `settings.json`
@@ -109,7 +124,9 @@ Make sure Cursor is closed before running the pull command to avoid file conflic
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Submit a pull request
+4. Add tests for new functionality
+5. Run the test suite to ensure everything works
+6. Submit a pull request
 
 ## License
 
