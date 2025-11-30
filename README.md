@@ -1,5 +1,7 @@
 # Cursor Settings Sync
 
+[![Tests](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml/badge.svg)](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml)
+
 A CLI tool to sync Cursor settings (extensions, themes, keymaps) across computers using GitHub Gists.
 
 ## Setup
