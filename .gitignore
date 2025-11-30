@@ -11,3 +11,5 @@ wheels/
 
 # env files
 .env
+# Allow .env.example
+!.env.example

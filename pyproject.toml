@@ -1,9 +1,13 @@
 [project]
 name = "cursor-settings-sync"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI tool to sync Cursor settings across computers using GitHub Gists"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "python-dotenv>=1.2.1",
+    "requests>=2.31.0",
 ]
+
+[project.scripts]
+cursor-sync = "main:main"
