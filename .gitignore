@@ -11,5 +11,6 @@ wheels/
 
 # env files
 .env
-# Allow .env.example
-!.env.example
+
+# log files
+cursor-sync.log
