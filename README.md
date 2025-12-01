@@ -11,6 +11,15 @@ Generate a GitHub Personal Access Token with the "gist" scope and create a `.env
 GH_TOKEN=your_github_token_here
 ```
 
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it installed. Then setup the python env.
+
+```bash
+uv sync
+source .venv/bin/activate
+# or on Windows
+.\.venv\Scripts\activate
+```
+
 ## Usage
 
 Run the project with uv:
