@@ -1,6 +1,6 @@
 # Cursor Settings Sync
 
-[![Tests](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml/badge.svg)](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml)
+[![Tests](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml/badge.svg)](https://github.com/ShawonAshraf/cursor-settings-sync/actions/workflows/tests.yml) [![codecov](https://codecov.io/gh/ShawonAshraf/cursor-settings-sync/graph/badge.svg?token=xmQvRFb5OO)](https://codecov.io/gh/ShawonAshraf/cursor-settings-sync)
 
 A CLI tool to sync Cursor settings (extensions, themes, keymaps) across computers using GitHub Gists.
 
