@@ -14,3 +14,8 @@ wheels/
 
 # log files
 cursor-sync.log
+
+# test coverage
+coverage.xml
+.coverage
+.pytest_cache
